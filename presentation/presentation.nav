@@ -3,8 +3,10 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/7}{}{0}}
 \headcommand {\beamer@framepages {2}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {1}{7}}
-\headcommand {\beamer@sectionpages {1}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\def \inserttotalframenumber {1}}
+\headcommand {\slideentry {1}{0}{1}{8/15}{}{0}}
+\headcommand {\beamer@framepages {8}{15}}
+\headcommand {\beamer@partpages {1}{15}}
+\headcommand {\beamer@subsectionpages {1}{15}}
+\headcommand {\beamer@sectionpages {1}{15}}
+\headcommand {\beamer@documentpages {15}}
+\headcommand {\def \inserttotalframenumber {2}}

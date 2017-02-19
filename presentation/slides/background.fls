@@ -1,0 +1,6 @@
+PWD /Users/goldsborough/Documents/ML/talks/cpp-london-2017/presentation/slides
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT background.tex
+OUTPUT background.log

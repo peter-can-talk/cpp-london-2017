@@ -12,6 +12,7 @@
       @\only<4->{clang::Tooling Tooling;}@
 
 
-      @\only<6>{std::vector<}\only<5->{clang::Tooling}\only<6>{>} \only<5->{YourTool;}@
+      @\only<6>{std::vector<}\only<5->{clang::Tooling}\only<6>{>} \only<5->{YourTool}\only<6>{s}\only<5->{;}@
+
     };
   \end{lstlisting}

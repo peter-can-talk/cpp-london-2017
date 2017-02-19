@@ -27,11 +27,13 @@
 % 	GENERAL PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{ulem}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{textcomp}
 \usepackage{anyfontsize}
+\usepackage{cancel}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 	MATH
@@ -111,6 +113,10 @@
 % 	NEW COMMANDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newcommand{\hs}[1]{\hspace{#1}}
+\newcommand{\vs}[1]{\vspace{#1}}
+
+
 \newcommand{\red}{\color{red}}
 
 \newcommand{\inlineitem}[2]{{\color{orange}#1.} #2 \hspace{0.5cm}}
@@ -133,57 +139,7 @@
 
 \newcommand{\pitem}{\pause\item}
 
-\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
-\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
-
-\def\bitcoin{%
-  \leavevmode
-  \vtop{\offinterlineskip %\bfseries
-    \setbox0=\hbox{B}%
-    \setbox2=\hbox to\wd0{\hfil\hskip-.03em
-    \vrule height .3ex width .15ex\hskip .08em
-    \vrule height .3ex width .15ex\hfil}
-    \vbox{\copy2\box0}\box2}}
-
-\DeclareMathOperator*{\argmin}{arg\,min}
-\DeclareMathOperator*{\softmax}{softmax}
-\DeclareMathOperator*{\relu}{relu}
-
 \newcommand{\frameheader}[1]{{\Large #1}\vspace{0.5cm}}
-
-% x offset, y offset, z offset, length
-\newcommand{\cube}[4]{
-  \xyplane{#3} {
-    \draw (#1, #2) rectangle ++(#4, #4);
-  }
-  \xyplane{#3 + #4} {
-    \draw (#1, #2) rectangle ++(#4, #4);
-  }
-  \yzplane{#1}{
-    \draw (#2, #3) rectangle ++(#4, #4);
-  }
-  \yzplane{{#1 + #4}}{
-    \draw (#2, #3) rectangle ++(#4, #4);
-  }
-}
-
-\newcommand{\xyplane}[2]{
-  \begin{scope}[canvas is xy plane at z={#1}]
-    #2
-  \end{scope}
-}
-
-\newcommand{\xzplane}[2]{
-  \begin{scope}[canvas is xz plane at y={#1}]
-    #2
-  \end{scope}
-}
-
-\newcommand{\yzplane}[2]{
-  \begin{scope}[canvas is yz plane at x={#1}]
-    #2
-  \end{scope}
-}
 
 \newcommand{\random}[1]{\pdfuniformdeviate #1}
 
