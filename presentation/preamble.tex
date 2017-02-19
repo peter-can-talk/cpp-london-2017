@@ -17,10 +17,16 @@
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LANGUAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 	GENERAL PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[american]{babel}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -62,7 +68,7 @@
 
 \lstset{%
 	basicstyle=\ttfamily\footnotesize,
-	language=Python,
+	language=C++,
 	aboveskip=3mm,
 	belowskip=3mm,
 	showstringspaces=false,
@@ -72,9 +78,12 @@
 	keywordstyle=\color{magenta},
 	commentstyle=\color{gray},
 	stringstyle=\color{stringgreen},
+  emphstyle=\color{ProcessBlue},
+  emph={std,llvm,clang},
 	breaklines=true,
 	breakatwhitespace=true,
-	tabsize=2
+	tabsize=2,
+  escapeinside={@}{@}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,8 +101,8 @@
   \parbox{\linewidth}{%
     \vspace*{-15pt}%
     \scriptsize
-    Peter Goldsborough\hspace{1.3cm}%
-    Show me your gradients\hfill%
+    Peter Goldsborough\hspace{2cm}%
+    {\small\texttt{clang-useful}}\hfill%
     \insertpagenumber}%
 }
 \setbeamertemplate{navigation symbols}{}

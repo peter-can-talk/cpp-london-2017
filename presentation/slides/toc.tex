@@ -1,19 +1,23 @@
-\begin{frame}[plain]
-  \frametitle{Table of Catents}
-  \pause
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}[h!]
-        \includegraphics[scale=0.2]{theory-cat}
-        \caption{\Large\color{orange} Theory}
-      \end{figure}
-    \end{column}
-    \pause
-    \begin{column}{0.5\textwidth}
-      \begin{figure}[h!]
-        \includegraphics[scale=0.25, trim={0 2cm 0 0}, clip]{code-cat}
-        \caption{\Large\color{orange} Practice}
-      \end{figure}
-    \end{column}
-  \end{columns}
+% !TEX root = ../presentation.tex
+% Table of Contents
+
+
+\begin{frame}[fragile]{Table of Members}
+  \begin{lstlisting}[basicstyle=\ttfamily\small]
+    class Talk {
+      public:
+
+      @\only<2->{llvm::LLVM CompilerToolchain;}@
+
+
+      @\only<3->{clang::Clang Frontend;}@
+
+
+      @\only<4->{clang::Tooling Tooling;}@
+
+
+      @\only<6>{std::vector<}\only<5->{clang::Tooling}\only<6>{>} \only<5->{YourTool;}@
+
+    };
+  \end{lstlisting}
 \end{frame}

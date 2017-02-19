@@ -10,6 +10,10 @@ Major topics to cover:
 
 ## LLVM in general
 
+History of LLVM
+
+Most compilers have a three phase design
+
 * LLVM is not built monolithically like GCC.
 * Rather, it is a set of libraries for various aspects of code parsing, optimization and transformation, that, when combined, give you a complete compiler.
 

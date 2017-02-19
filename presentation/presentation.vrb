@@ -1,56 +1,17 @@
-\frametitle{Pooling}
-\begin{center}
-  \begin{tikzpicture}
-    \newcommand{\fourgrid}[4]{%
-      \numbersquare{(0, 0)}{1}{#1}
-      \numbersquare{(1, 0)}{1}{#2}
-      \numbersquare{(0, 1)}{1}{#3}
-      \numbersquare{(1, 1)}{1}{#4}
-    }
+\frametitle{Table of Members}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+    class Talk {
+      public:
 
-    \newcommand{\threerow}[4]{
-      \numbersquare{(0, #1)}{1}{#2}
-      \numbersquare{(1, #1)}{1}{#3}
-      \numbersquare{(2, #1)}{1}{#4}
-    }
+      @\only<2->{llvm::LLVM CompilerToolchain;}@
 
-    \newcommand{\ninegrid}[9]{
-      \threerow{0}{#1}{#2}{#3};
-      \threerow{1}{#4}{#5}{#6};
-      \threerow{2}{#7}{#8}{#9};
-    }
 
-    % (0, 0) (1, 0) (0, 1) (1, 1)
-    \only<2> {\fourgrid{6}{32}{66}{2}}
-    \only<3> {\fourgrid{6}{32}{\red 66}{2}}
-    \only<4> {\fourgrid{\red 66}{2}{50}{17}}
-    \only<5> {\fourgrid{33}{\red 66}{9}{50}}
+      @\only<3->{clang::Clang Frontend;}@
 
-    \only<6-> {\ninegrid{6}{32}{128}{66}{2}{79}{5}{19}{69}}
 
-    \only<7-8> {
-      \draw [red, semithick] (0, 1) grid ++(2, 2);
-      \colornumbersquare{(0, 1)}{1}{66}{red}
-    }
-    \only<8-> { \onesquare{(6, 1)}{66}; }
+      @\only<4->{clang::Tooling Tooling;}@
 
-    \only<9> {
-      \draw [red, semithick] (1, 1) grid ++(2, 2);
-      \colornumbersquare{(2, 1)}{1}{79}{red}
-    }
-    \only<9-> { \onesquare{(7, 1)}{79}; }
 
-    \only<10> {
-      \draw [red, semithick] (0, 0) grid ++(2, 2);
-      \colornumbersquare{(0, 1)}{1}{66}{red}
-    }
-    \only<10-> {\onesquare{(6, 0)}{66};}
-
-    \only<11> {
-      \draw [red, semithick] (1, 0) grid ++(2, 2);
-      \colornumbersquare{(2, 0)}{1}{128}{red}
-    }
-    \only<11-> { \onesquare{(7, 0)}{128}; }
-
-  \end{tikzpicture}
-  \end{center}
+      @\only<6>{std::vector<}\only<5->{clang::Tooling}\only<6>{>} \only<5->{YourTool;}@
+    };
+  \end{lstlisting}
