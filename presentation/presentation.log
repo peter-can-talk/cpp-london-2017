@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.22)  20 FEB 2017 05:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.22)  20 FEB 2017 11:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1866,23 +1866,20 @@ Package pdftex.def Info: figures/clang-all-things.jpg used on input line 6.
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )) [59
 
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [60
-
-] [61
+] [60
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 60.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 57.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 57.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 60.
+(Font)              for symbol `textbackslash' on input line 57.
 
-[62
+[61
+
+] [62
 
 ] [63
 
@@ -1894,12 +1891,17 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 ] [67
 
-] [68
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb) [68
 
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb) [69
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [69
 
 ]
 \openout4 = `presentation.vrb'.
@@ -1929,22 +1931,15 @@ File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )) [73
 
-]
-\openout4 = `presentation.vrb'.
+]) (./slides/outro.tex [74
 
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [74
-
-]) (./slides/outro.tex [75
+] [75
 
 ] [76
 
 ] [77
 
 ] [78
-
-] [79
 
 ])
 \tf@nav=\write6
@@ -1970,18 +1965,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 35874 strings out of 493014
- 828406 string characters out of 6133351
- 1039085 words of memory out of 5000000
- 38320 multiletter control sequences out of 15000+600000
+ 35868 strings out of 493014
+ 828337 string characters out of 6133351
+ 1039086 words of memory out of 5000000
+ 38318 multiletter control sequences out of 15000+600000
  16794 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,80p,729b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (79 pages, 928041 bytes).
+Output written on presentation.pdf (78 pages, 927507 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
- 171 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 169 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

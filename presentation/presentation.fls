@@ -729,9 +729,6 @@ INPUT presentation.vrb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-OUTPUT presentation.vrb
-INPUT presentation.vrb
-INPUT presentation.vrb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 OUTPUT presentation.vrb
 INPUT presentation.vrb

@@ -353,8 +353,8 @@
   \begin{tikzpicture}[very thick]
     \node at (0, 0) {};
 
-    \node (code) at (5, 2.5) [text width=4.3cm, align=justify] {
-      \begin{lstlisting}[language=llvm, basicstyle=\fontsize{6.8}{6.8}\ttfamily]
+    \node (code) at (4.5, 2.5) [text width=4.6cm, align=justify] {
+      \begin{lstlisting}[language=llvm, basicstyle=\fontsize{7.5}{7.5}\ttfamily]
 ; Function Attrs: nounwind ssp
 define i32 @_Z1fi(i32) #0 {
   %2 = alloca i32, align 4
@@ -365,6 +365,6 @@ define i32 @_Z1fi(i32) #0 {
       \end{lstlisting}
     };
 
-    \draw [->, shorten >= 20pt] (0.75, 2.5) -- (code);
+    \draw [->, shorten >= 10pt, shorten <= -10pt] (0.75, 2.5) -- (code);
   \end{tikzpicture}
 \end{frame}
