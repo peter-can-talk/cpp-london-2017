@@ -38,15 +38,12 @@ class Visitor : public clang::ast_matchers::MatchFinder::MatchCallback {
     const clang::ASTContext* Context = Result.Context;
     const clang::SourceManager& SourceManager = Context->getSourceManager();
 
-    if (SourceManager.isInSystemHeader(Variable->getLocation())) {
-      return;
-    }
+    if (SourceManager.isInSystemHeader(Variable->getLocation())) return;
 
     const llvm::StringRef Name = Variable->getName();
 
     if (!Name.empty() && !Name.startswith("clang_")) {
-    clang::
-      DiagnosticsEngine& Engine = Context->getDiagnostics();
+    clang::DiagnosticsEngine& Engine = Context->getDiagnostics();
       const unsigned ID = Engine.getCustomDiagID(
           clang::DiagnosticsEngine::Warning,
           "clang variable should be marked appropriately. lol this is so cool");
