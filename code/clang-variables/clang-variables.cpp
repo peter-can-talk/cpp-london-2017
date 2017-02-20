@@ -1,6 +1,3 @@
-#ifndef CLANG_VARIABLES_HPP
-#define CLANG_VARIABLES_HPP
-
 // Clang includes
 #include "clang/AST/ASTConsumer.h"
 #include "clang/AST/ASTContext.h"
@@ -26,7 +23,7 @@
 #include <vector>
 #include <cassert>
 
-class Visitor : public clang::ast_matchers::MatchFinder::MatchCallback {
+class MatchHandler : public clang::ast_matchers::MatchFinder::MatchCallback {
  public:
   using MatchResult = clang::ast_matchers::MatchFinder::MatchResult;
 
@@ -43,7 +40,7 @@ class Visitor : public clang::ast_matchers::MatchFinder::MatchCallback {
     const llvm::StringRef Name = Variable->getName();
 
     if (!Name.empty() && !Name.startswith("clang_")) {
-    clang::DiagnosticsEngine& Engine = Context->getDiagnostics();
+      clang::DiagnosticsEngine& Engine = Context->getDiagnostics();
       const unsigned ID = Engine.getCustomDiagID(
           clang::DiagnosticsEngine::Warning,
           "clang variable should be marked appropriately. lol this is so cool");
@@ -74,7 +71,7 @@ class Consumer : public clang::ASTConsumer {
       .bind("clang");
     // clang-format on
 
-    MatchFinder.addMatcher(Matcher, &Visitor);
+    MatchFinder.addMatcher(Matcher, &Handler);
   }
 
   void HandleTranslationUnit(clang::ASTContext& Context) override {
@@ -83,7 +80,7 @@ class Consumer : public clang::ASTConsumer {
 
  private:
   clang::ast_matchers::MatchFinder MatchFinder;
-  Visitor Visitor;
+  MatchHandler Handler;
 };
 
 class Action : public clang::ASTFrontendAction {
@@ -112,7 +109,6 @@ llvm::cl::OptionCategory ToolCategory("clang-variables options");
 llvm::cl::extrahelp MoreHelp(R"(
 )");
 
-
 llvm::cl::extrahelp
     CommonHelp(clang::tooling::CommonOptionsParser::HelpMessage);
 }  // namespace
@@ -126,5 +122,3 @@ auto main(int argc, const char* argv[]) -> int {
 
   return Tool.run(newFrontendActionFactory<Action>().get());
 }
-
-#endif  // CLANG_VARIABLES_HPP
