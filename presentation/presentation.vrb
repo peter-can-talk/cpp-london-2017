@@ -1,18 +1,8 @@
-\frametitle{Table of Members}
-\begin{lstlisting}[basicstyle=\ttfamily\small]
-    class Talk {
-      public:
-
-      @\only<2->{llvm::LLVM CompilerToolchain;}@
-
-
-      @\only<3->{clang::Clang Frontend;}@
-
-
-      @\only<4->{clang::Tooling Tooling;}@
-
-
-      @\only<6>{std::vector<}\only<5->{clang::Tooling}\only<6>{>} \only<5->{YourTool}\only<6>{s}\only<5->{;}@
-
+\frametitle{Clang Tooling: libTooling}
+\begin{lstlisting}[basicstyle=\large\ttfamily]
+    const auto lambda = [] (auto) noexcept {
+        bool done = true;
+        flip: done = !done;
+        if (!done) goto flip;
     };
   \end{lstlisting}

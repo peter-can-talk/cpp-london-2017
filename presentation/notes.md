@@ -32,3 +32,10 @@ Backend:
 * Target platform (ISA) specific code optimizations in assembly.
 * Use the right instructions as provided by the hardware.
 * Final machine code generation.
+
+Todo:
+
+* Setup code
+* Make symlinks
+* Open in llvm directory
+* practice
