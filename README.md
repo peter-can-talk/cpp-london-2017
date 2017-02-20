@@ -1,3 +1,4 @@
-# PyData London
+# C++ London
 
-Slides and code for my PyData London talk on December 6th, 2016.
+Slides and code for my talk about the LLVM/clang tooling environment at the [C++
+London meetup](https://www.meetup.com/CppLondon/events/237424256).
