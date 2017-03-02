@@ -344,3 +344,7 @@ ENV/
 .ropeproject
 
 # End of https://www.gitignore.io/api/latex,c++,python
+
+
+## Other
+code/demo/
