@@ -1,8 +1,8 @@
 \frametitle{Clang Tooling: libTooling}
 \begin{lstlisting}[basicstyle=\large\ttfamily]
-    const auto lambda = [] (auto) noexcept {
-        bool done = true;
-        flip: done = !done;
-        if (!done) goto flip;
-    };
+  const auto clang_lambda = [] (auto) noexcept {
+      bool done = true;
+      flip: done = !done;
+      if (!done) goto flip;
+  };
   \end{lstlisting}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.22)  20 FEB 2017 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.22)  2 MAR 2017 02:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1432,13 +1432,13 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 LaTeX Font Info:    Try loading font information for TS1+cmss on input line 5.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) (./slides/title.tex <figures/dragon.png, id=41, 1204.5pt x 905.3825pt>
+) (./slides/title.tex <figures/dragon.png, id=37, 1204.5pt x 905.3825pt>
 File: figures/dragon.png Graphic file (type png)
  <use figures/dragon.png>
 Package pdftex.def Info: figures/dragon.png used on input line 21.
 (pdftex.def)             Requested size: 144.53375pt x 108.6412pt.
 
-Overfull \vbox (42.00386pt too high) detected at line 21
+Overfull \vbox (41.24344pt too high) detected at line 21
  []
 
 [1
@@ -1470,197 +1470,43 @@ File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )) [7
 
-]) (./slides/background.tex <figures/tum.png, id=87, 256.96pt x 256.96pt>
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
- <figures/google.jpg, id=88, 513.92pt x 513.92pt>
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
- <figures/bloomberg.png, id=89, 301.125pt x 301.125pt>
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
- <figures/fb.png, id=90, 1027.84pt x 1027.84pt>
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
- <figures/mindi.png, id=91, 1027.84pt x 393.47pt>
-File: figures/mindi.png Graphic file (type png)
+]) (./slides/llvm.tex [8
 
-<use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [8
+] [9
 
- <./figures/tum.png> <./figures/google.jpg> <./figures/bloomberg.png> <./figures/fb.png> <./figures/mindi.png>]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [9
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
 
 ]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [10
-
-]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [11
-
-]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [12
-
-]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [13
-
-]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
- <use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
- [14
-
-]
-File: figures/tum.png Graphic file (type png)
- <use figures/tum.png>
-Package pdftex.def Info: figures/tum.png used on input line 54.
-(pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
-File: figures/google.jpg Graphic file (type jpg)
- <use figures/google.jpg>
-Package pdftex.def Info: figures/google.jpg used on input line 54.
-(pdftex.def)             Requested size: 25.6975pt x 25.6975pt.
-File: figures/bloomberg.png Graphic file (type png)
- <use figures/bloomberg.png>
-Package pdftex.def Info: figures/bloomberg.png used on input line 54.
-(pdftex.def)             Requested size: 27.10007pt x 27.10007pt.
-File: figures/fb.png Graphic file (type png)
- <use figures/fb.png>
-Package pdftex.def Info: figures/fb.png used on input line 54.
-(pdftex.def)             Requested size: 28.26176pt x 28.26176pt.
-File: figures/mindi.png Graphic file (type png)
-
-<use figures/mindi.png>
-Package pdftex.def Info: figures/mindi.png used on input line 54.
-(pdftex.def)             Requested size: 51.395pt x 19.67464pt.
+File: figures/dragon.png Graphic file (type png)
+ <use figures/dragon.png>
+Package pdftex.def Info: figures/dragon.png used on input line 50.
+(pdftex.def)             Requested size: 54.20015pt x 40.74045pt.
+ <figures/swift.png, id=121, 2007.5pt x 1806.75pt>
+File: figures/swift.png Graphic file (type png)
+ <use figures/swift.png>
+Package pdftex.def Info: figures/swift.png used on input line 50.
+(pdftex.def)             Requested size: 40.15848pt x 36.14262pt.
+ <figures/rust.png, id=122, 2007.5pt x 2007.5pt>
+File: figures/rust.png Graphic file (type png)
+ <use figures/rust.png>
+Package pdftex.def Info: figures/rust.png used on input line 50.
+(pdftex.def)             Requested size: 40.15848pt x 40.15848pt.
+ <figures/opencl.jpg, id=123, 329.48903pt x 315.5013pt>
+File: figures/opencl.jpg Graphic file (type jpg)
+ <use figures/opencl.jpg>
+Package pdftex.def Info: figures/opencl.jpg used on input line 50.
+(pdftex.def)             Requested size: 42.83507pt x 41.0166pt.
  [15
 
-]) (./slides/llvm.tex [16
+ <./figures/swift.png> <./figures/rust.png> <./figures/opencl.jpg>] [16
 
 ] [17
 
@@ -1672,113 +1518,77 @@ Package pdftex.def Info: figures/mindi.png used on input line 54.
 
 ] [21
 
-] [22
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb) [22
+
+] (./presentation.vrb) [23
+
+] (./presentation.vrb) [24
+
+] (./presentation.vrb) [25
+
+] (./presentation.vrb) [26
 
 ]
-File: figures/dragon.png Graphic file (type png)
- <use figures/dragon.png>
-Package pdftex.def Info: figures/dragon.png used on input line 50.
-(pdftex.def)             Requested size: 54.20015pt x 40.74045pt.
- <figures/swift.png, id=176, 2007.5pt x 1806.75pt>
-File: figures/swift.png Graphic file (type png)
- <use figures/swift.png>
-Package pdftex.def Info: figures/swift.png used on input line 50.
-(pdftex.def)             Requested size: 40.15848pt x 36.14262pt.
- <figures/rust.png, id=177, 2007.5pt x 2007.5pt>
-File: figures/rust.png Graphic file (type png)
- <use figures/rust.png>
-Package pdftex.def Info: figures/rust.png used on input line 50.
-(pdftex.def)             Requested size: 40.15848pt x 40.15848pt.
- <figures/opencl.jpg, id=178, 329.48903pt x 315.5013pt>
-File: figures/opencl.jpg Graphic file (type jpg)
- <use figures/opencl.jpg>
-Package pdftex.def Info: figures/opencl.jpg used on input line 50.
-(pdftex.def)             Requested size: 42.83507pt x 41.0166pt.
- [23
+\openout4 = `presentation.vrb'.
 
- <./figures/swift.png> <./figures/rust.png> <./figures/opencl.jpg>] [24
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [27
 
-] [25
+]
+\openout4 = `presentation.vrb'.
 
-] [26
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [28
 
-] [27
-
-] [28
-
-] [29
+] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [29
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb) [30
 
-] (./presentation.vrb) [31
-
-] (./presentation.vrb) [32
-
-] (./presentation.vrb) [33
-
-] (./presentation.vrb) [34
-
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [35
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [36
+)) [31
 
 ] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [37
+)) [32
 
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [38
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [39
+)) [33
+
+] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [34
+
+] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [35
+
+] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [36
 
 ] (./presentation.vrb
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [40
+)) [37
 
 ] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [41
-
-] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [42
-
-] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [43
-
-] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [44
-
-] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [45
-
-] (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [46
+)) [38
 
 ]
 \openout4 = `presentation.vrb'.
@@ -1789,7 +1599,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [47
+)) [39
 
 ] (./presentation.vrb
 Missing character: There is no ; in font nullfont!
@@ -1797,7 +1607,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [48
+)) [40
 
 ] (./presentation.vrb
 Missing character: There is no ; in font nullfont!
@@ -1805,12 +1615,59 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [49
+)) [41
 
 ]) (./slides/ast.tex
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb) [50
+ (./presentation.vrb) [42
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [43
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [44
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [45
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [46
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [47
+
+]) (./slides/tooling.tex <figures/clang-all-things.jpg, id=301, 301.125pt x 225.84375pt>
+File: figures/clang-all-things.jpg Graphic file (type jpg)
+
+<use figures/clang-all-things.jpg>
+Package pdftex.def Info: figures/clang-all-things.jpg used on input line 6.
+(pdftex.def)             Requested size: 268.44913pt x 203.25748pt.
+ [48
+
+ <./figures/clang-all-things.jpg>] [49
+
+] [50
 
 ]
 \openout4 = `presentation.vrb'.
@@ -1819,54 +1676,7 @@ File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )) [51
 
-]
-\openout4 = `presentation.vrb'.
-
-
-(./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [52
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [53
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [54
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [55
-
-]) (./slides/tooling.tex <figures/clang-all-things.jpg, id=356, 301.125pt x 225.84375pt>
-File: figures/clang-all-things.jpg Graphic file (type jpg)
- <use figures/clang-all-things.jpg>
-Package pdftex.def Info: figures/clang-all-things.jpg used on input line 6.
-(pdftex.def)             Requested size: 268.44913pt x 203.25748pt.
- [56
-
- <./figures/clang-all-things.jpg>] [57
-
-] [58
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [59
-
-] [60
+] [52
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 57.
@@ -1877,69 +1687,72 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 57.
 
-[61
+[53
 
-] [62
+] [54
 
-] [63
+] [55
 
-] [64
+] [56
 
-] [65
+] [57
 
-] [66
+] [58
 
-] [67
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [68
+] [59
 
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [69
+ (./presentation.vrb) [60
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [70
+)) [61
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [71
+)) [62
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [72
+)) [63
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)) [73
+)) [64
 
-]) (./slides/outro.tex [74
+]
+\openout4 = `presentation.vrb'.
 
-] [75
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [65
 
-] [76
+]
+\openout4 = `presentation.vrb'.
 
-] [77
+ (./presentation.vrb (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)) [66
 
-] [78
+]) (./slides/outro.tex [67
+
+] [68
+
+] [69
 
 ])
 \tf@nav=\write6
@@ -1957,7 +1770,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 3787B8ED399A7E5863B792C0DAE6F877;333.
+(rerunfilecheck)             Checksum: 32CCFC37079B66622329059F9C2D4C74;287.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1965,18 +1778,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 35868 strings out of 493014
- 828337 string characters out of 6133351
- 1039086 words of memory out of 5000000
- 38318 multiletter control sequences out of 15000+600000
+ 35782 strings out of 493014
+ 827251 string characters out of 6133351
+ 1039085 words of memory out of 5000000
+ 38256 multiletter control sequences out of 15000+600000
  16794 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,80p,729b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (78 pages, 927507 bytes).
+Output written on presentation.pdf (69 pages, 824169 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
- 448 compressed objects within 5 object streams
- 169 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 504 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -105,3 +105,13 @@
     };
   \end{lstlisting}
 \end{frame}
+
+\begin{frame}[fragile]{Clang Tooling: libTooling}
+  \begin{lstlisting}[basicstyle=\large\ttfamily]
+  const auto clang_lambda = [] (auto) noexcept {
+      bool done = true;
+      flip: done = !done;
+      if (!done) goto flip;
+  };
+  \end{lstlisting}
+\end{frame}

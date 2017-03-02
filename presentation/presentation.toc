@@ -1,9 +1,8 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {american}
-\beamer@sectionintoc {1}{Background}{8}{0}{1}
-\beamer@sectionintoc {3}{LLVM}{24}{0}{2}
-\beamer@sectionintoc {5}{Clang Tooling}{57}{0}{3}
-\beamer@sectionintoc {6}{Clang Tooling}{58}{0}{4}
-\beamer@sectionintoc {7}{Clang Tooling}{60}{0}{5}
-\beamer@sectionintoc {8}{Clang Tooling: libTooling}{61}{0}{6}
-\beamer@sectionintoc {10}{Resources}{75}{0}{7}
+\beamer@sectionintoc {2}{LLVM}{16}{0}{1}
+\beamer@sectionintoc {4}{Clang Tooling}{49}{0}{2}
+\beamer@sectionintoc {5}{Clang Tooling}{50}{0}{3}
+\beamer@sectionintoc {6}{Clang Tooling}{52}{0}{4}
+\beamer@sectionintoc {7}{Clang Tooling: libTooling}{53}{0}{5}
+\beamer@sectionintoc {9}{Resources}{68}{0}{6}
